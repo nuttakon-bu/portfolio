@@ -264,6 +264,7 @@ header {
     .intro__img {
         grid-area: img;
         min-width: 250px;
+        width: 100px;
         position: relative;
         z-index: 2;
     }
@@ -288,6 +289,7 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
+    max-height: 350px;
 }
 
 .section__subtitle--intro {
@@ -329,6 +331,7 @@ header {
     padding: 0 2em 2em;
     max-width: 1000px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .portfolio-item-individual p {
